@@ -1,0 +1,6 @@
+node_modules/
+NOTES.md
+*.tmp
+
+# Claude Code local overrides
+.claude/settings.local.json

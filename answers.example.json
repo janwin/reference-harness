@@ -1,0 +1,11 @@
+{
+  "_comment": "Preanswered human pauses for headless/CI runs: harness --headless -p '...' --answers answers.example.json",
+  "plan": "approve",
+  "confirm": {
+    "write_file": "approve_always",
+    "run_command": "reject"
+  },
+  "ask": {
+    "file tree": "No — prose only"
+  }
+}
